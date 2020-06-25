@@ -21,9 +21,11 @@ iptables:
 DHCP: 
 -   subnet 168.150.100.0 netmask 255.255.252.0
 	{
+    
     range 168.150.100.1 168.150.103.254;  
     option routers 168.150.100.1;  
     option domain-name-server 168.150.100.1, 1.1.1.1
+    
     }
 
 DNS hosts: 
